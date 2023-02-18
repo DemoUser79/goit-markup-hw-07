@@ -392,8 +392,8 @@ body {
 /* ======================CUSTOMER ===============*/
 
 .customers {
-    padding-top: 130px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .customers-title {
@@ -407,13 +407,16 @@ body {
 }
 
 .customers-list {
+    flex-wrap: wrap;
     justify-content: center;
     display: flex;
-    gap: 24px;
+    row-gap: 72px;
+    column-gap: 16px;
 }
 
 .customers-item {
-    width: calc((100% - 24px*5) / 6);
+    width: calc((100% - 24px) / 2);
+    /* width: calc((100% - 24px*5) / 6); */
     height: 88px;
 }
 
@@ -914,116 +917,3 @@ body {
     background-color: #404BBF;
 }
 
-@media screen and (min-width: 480px) {
-    .container {
-        max-width: 428px;
-    }
-
-    .container-small {
-        max-width: 296px;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-    }
-
-    .principles-list {
-        row-gap: 72px;
-        column-gap: 24px;
-    }
-    
-    .principles-item {
-        width: calc((100% - 24px) / 2);
-    }
-
-    .container-small {
-        max-width: 584px;
-    }
-
-    .team {
-        padding-top: 96px;
-        padding-bottom: 104px;
-    }
-
-    .team-list {
-        row-gap: 64px;
-        column-gap: 24px;
-    }
-
-    .team-item {
-        width: calc((100% - 24px) / 2);
-    }
- 
-}
-
-@media screen and (min-width: 1200px) {
-    .container {
-        max-width: 1200px;
-    }
-
-    .principles-item {
-        width: calc((100% - 24px*3) / 4);
-    }
-
-    .principles-item::before {
-        background-size: 64px;
-        display: block;
-        content: '';
-        height: 112px;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-color: #F4F4FD;
-    }
-    
-    .icon-sat-antenna::before {
-        background-image: url(../images/icons.svg/satellite-antenna-a.svg);
-    }
-    
-    .icon-clock::before {
-        background-image: url(../images/icons.svg/clock-b.svg);
-    }
-    
-    .icon-comp::before {
-        background-image: url(../images/icons.svg/comp-c.svg);
-    }
-    
-    .icon-cosmonaut::before {
-        background-image: url(../images/icons.svg/cosmonaut-d.svg);
-    }
-
-    .principles-suptitle {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        margin-top: 8px;
-    }
-
-    .principles-text {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--second-color);
-    }
-
-    .about {
-        display: block;
-    }
-
-    .team {
-        padding-top: 120px;
-        padding-bottom: 120px;
-    }
-
-    .team-list {
-        gap: 24px;
-    }
-
-    .team-item {
-            width: calc((100% - 24px*3) / 4);
-    }
-
-}
