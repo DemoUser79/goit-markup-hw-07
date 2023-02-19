@@ -55,17 +55,17 @@
             </li>
           </ul>
         </address>
-        <button class="header-menu-btn" type="button">
+        <button class="header-menu-btn" type="button" data-menu-open>
           <svg class="header-btn-menu-icon" width="32" height="22">
             <use href="./images/icons.svg/icons.svg#icon-menu-btn-icon"></use>
           </svg>
         </button>
       </div>
       <!-- ------- MOB MENU  -------- -->
-      <div class="mob-menu">
+      <div class="mob-menu" data-menu>
         <div class="container">
-          
-            <button class="mob-menu-close" data-modal-close type="button">
+          <div>
+            <button class="mob-menu-close" data-menu-close type="button">
               <svg class="mob-menu-close-icon" width="8" height="8">
                 <use
                   href="./images/icons.svg/modal-wind-x.svg#icon-close-black-xx"
@@ -89,6 +89,8 @@
                 </li>
               </ul>
             </nav>
+          </div>
+          <div>
             <address class="mob-contacts-address">
               <ul class="mob-address-menu-list list">
                 <li class="mob-address-menu-item">
@@ -145,6 +147,7 @@
                 </a>
               </li>
             </ul>
+          </div>
         </div>
       </div>
     </header>
@@ -585,7 +588,7 @@
         </section>
       </div>
     </footer> -->
-    <!-- <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-close" data-modal-close type="button">
           <svg class="modal-close-icon" width="8" height="8">
@@ -666,7 +669,8 @@
           <button type="submit" class="button-send">Send</button>
         </form>
       </div>
-    </div> -->
+    </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
