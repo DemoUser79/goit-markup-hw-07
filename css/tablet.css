@@ -164,4 +164,9 @@
         width: calc((100% - 24px*2) / 3);
     }
 
+    .modal {
+        width: 408px;
+        min-height: 586px;
+      }
+
 }
