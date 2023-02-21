@@ -1,6 +1,7 @@
 @media screen and (min-width: 480px) {
     .container {
         max-width: 428px;
+        margin: 0 auto;
     }
 
     .hero {
@@ -15,7 +16,9 @@
         }
     }
 
-    .container-small {
-        max-width: 296px;
-    }
+
+    .subscribe-input {
+        max-width: 298px;
+      }
+
 }

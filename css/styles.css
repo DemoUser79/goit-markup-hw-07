@@ -97,10 +97,10 @@ body {
 }
 
 .container {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   padding-left: 16px;
   padding-right: 16px;
+  max-width: 1158px;
 }
 
 .header-container {
@@ -568,7 +568,7 @@ body {
 }
 
 .footer-logotype {
-  margin-bottom: 17px;
+  margin-bottom: 16px;
   font-family: var(--second-font-family);
   display: inline-block;
   font-weight: 800;
@@ -659,7 +659,7 @@ body {
   margin: 0 24px 16px 0;
   padding: 0 0 0 16px;
   background-color: transparent;
-  width: 398px;
+  width: 100%;
   height: 40px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
