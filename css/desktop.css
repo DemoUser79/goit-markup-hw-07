@@ -27,8 +27,10 @@
     }
 
     .current::after {
-        bottom: -23px;
+        bottom: -24px;
     }
+
+     /* ========HERO =====*/
 
     .hero {
         padding-top: 188px;
@@ -38,6 +40,13 @@
     .main-title {
         margin-bottom: 48px;
     }
+
+    /*========== PRINCIPLRS OF WORK =======*/
+
+    .principles {
+        padding-top: 120px;
+        padding-bottom: 120px;
+      }
             
     .principles-item {
         width: calc((100% - 24px*3) / 4);
@@ -102,6 +111,8 @@
         width: calc((100% - 24px*3) / 4);
     }
 
+    /* --------- CUSTOMERS ---*/
+
     .customers {
         padding-top: 120px;
         padding-bottom: 120px;
@@ -115,16 +126,25 @@
         width: calc((100% - 24px*5) / 6);
     }
 
+    .container-small {
+        margin: 0 auto;
+        max-width: 1128px;
+      }
+
     /*++++++++++++++++++++++++++++++ FOOTER ++++++++++++++*/
 
     .footer {
-      margin: 0 auto;
+      margin: 0;
       padding-top: 100px;
       padding-bottom: 100px;
     }
 
+    .footer-container {
+    max-width: 1088px;
+  }
+
     .footer-wrap-logo {
-      margin-right: 120px;
+      margin-right: 100px;
     }
 
 .footer-text {
@@ -138,7 +158,7 @@
 }
 
 .footer-wrap-cocial-media {
-  margin-right: 80px;
+  margin-right: 60px;
 }
 
 .footer-suptitle {

@@ -129,6 +129,8 @@
         line-height: 1.07;
     }
 
+     /* ======== PRINCIPLRS OF WORK =====*/
+
     .principles-list {
         row-gap: 72px;
         column-gap: 24px;
@@ -138,8 +140,13 @@
         width: calc((100% - 24px) / 2);
     }
 
+    .principles-suptitle {
+      text-align: start;
+    }
+
     .container-small {
-        max-width: 584px;
+      margin: 0 auto;
+      max-width: 584px;
     }
 
     .team {
@@ -201,7 +208,7 @@
   
   .footer-suptitle {
     margin-bottom: 16px;
-    margin-left: 0;
+    text-align: start;
   }
   
   .footer-soc-list {
