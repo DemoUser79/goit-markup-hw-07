@@ -660,7 +660,7 @@ body {
 }
 
 .subscribe-input {
-  text-align: center;
+  text-align: start;
   color: rgba(255, 255, 255, 0.6);
   display: inline-block;
   margin: 0 0 16px 0;
